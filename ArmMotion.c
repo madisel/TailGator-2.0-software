@@ -26,3 +26,22 @@ void move_down()
 	}
 	PORTB = '00';
 }
+//not finished
+void turn(int m, int d)
+{
+if(m == 0){
+
+	PORTB = (PORTB3 << d);
+	PINB = 0x10;
+	_delay_us(xxxx);
+	count 1;
+}
+}
+	
+	
+	
+	
+	
+	
+	
+	
